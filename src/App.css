@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+.container-header {
+  background-color: grey;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container-header > p {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* MAIN */
+.container-main {
+  width: 1020px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+/* RED */
+.red {
+  border: solid 5px red;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.red h1 {
+  font-size: 25px;
+}
+/* GREEN */
+.green {
+  border: solid 5px green;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.green h1 {
+  font-size: 25px;
+}
+/* YELLOW */
+.yellow {
+  border: solid 5px yellow;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.yellow h1 {
+  font-size: 25px;
+}
+/* BLUE */
+.blue {
+  border: solid 5px blue;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.blue h1 {
+  font-size: 25px;
+}
+/* PINK */
+.pink {
+  border: solid 5px pink;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+.pink h1 {
+  font-size: 25px;
+}
+/* FOOTER */
+footer {
+  flex-shrink: 0;
+  border-top: 1px dashed black;
+  width: 100%;
+  background: white;
+  color: rgb(23, 19, 19)
+}
+
+.contenu-footer {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  padding: 50px 0 100px;
+}
+
+.bloc {
+  width: 25%;
+  margin: 0 30px;
+}
+
+/* Contact */
+
+.footer-contact h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-medias h3{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.footer-contact p {
+  padding: 5px 0;
+}
+/* Services */
+
+.liste-services,
+.liste-horraires,
+.liste-media {
+  list-style-type: none;
+}
+.liste-services li {
+  padding: 2px 0;
+}
+
+.liste-services a {
+  text-decoration: none;
+  color: #333;
+}
+
+.liste-services a:hover {
+  color: rgb(3,3,3);
+}
+
+/* Medias */
+
+.liste-media {
+  position: relative;
+  right: 10px;
+}
+
+.liste-media img {
+  width: 40px;
+  margin: 10px 10px;
+}
+
+.liste-media a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+}
+
+img {
+  width: 20px;
+}
+
